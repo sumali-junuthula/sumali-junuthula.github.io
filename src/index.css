@@ -1,0 +1,54 @@
+@import 'tailwindcss';
+
+@layer utilities {
+  .cursor {
+    display: inline-block;
+    width: 0.8ch;
+    height: 1.2em;
+    background-color: #ebdbb2;
+    animation: blink 1s step-start 2000;
+    margin-bottom: 3px;
+    vertical-align: bottom;
+  }
+
+  .cursor.hidden {
+    animation:none;
+    opacity: 1;
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+}
+
+.glitch-text {
+  position: relative;
+  font-size: 2.5rem;
+}
+.glitch-text::before,
+.glitch-text::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.glitch-text::before {
+  animation: glitchTop 2s infinite;
+  color: #ff00c8;
+  top: -2px;
+}
+.glitch-text::after {
+  animation: glitchBottom 2s infinite;
+  color: #00fff7;
+  top: 2px;
+}
+@keyframes glitchTop {
+  0%, 100% { clip: rect(0, 9999px, 0, 0); }
+  10% { clip: rect(10px, 9999px, 20px, 0); }
+}
+@keyframes glitchBottom {
+  0%, 100% { clip: rect(0, 9999px, 0, 0); }
+  10% { clip: rect(40px, 9999px, 50px, 0); }
+}

@@ -1,0 +1,13 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.bg-gray-800 {
+  background-color: #83a598;
+}
+.rounded-full {
+  border-radius: 9999px;
+}

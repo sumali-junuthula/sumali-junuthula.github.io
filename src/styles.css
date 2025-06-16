@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: Tech Mono;
+  src: url("../src/assets/fonts/ShareTechMono-Regular.ttf");
+}
+
+@theme {
+  --font-techmono: Tech Mono, "sans-serif"
+}
+
+@font-face {
+  font-family: Space Mono;
+  src: url("../src/assets/fonts/SpaceMono-Regular.ttf");
+}
+
+@theme {
+  --font-spacemono: Space Mono, "sans-serif"
+}
+
+@theme {
+  --color-darkblue: #1e2021;
+  --color-beige: #ebdbb2;
+  --color-red: #fb4834;
+  --color-blue: #83a598;
+  --color-teal: #8dc87c;
+  --color-yellow: #fbbd2e;
+  --color-orange: #fe8018;
+  --color-green: #b9bb25;
+}
