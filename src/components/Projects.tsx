@@ -12,76 +12,88 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Neural Network Visualizer",
+      title: "AlphaHub",
       type: "code",
-      description: "Interactive 3D visualization of neural network training process using Three.js and WebGL shaders.",
+      description: "A real-time multi-modal alpha signal engine",
       image: "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=400&h=300&fit=crop",
-      skills: ["Three.js", "WebGL", "React", "TypeScript"],
-      github: "https://github.com/example/neural-viz",
-      demo: "https://neural-viz.demo.com",
-      views: 1247,
+      skills: ["Vite", "API", "React", "TypeScript", "TailwindCSS"],
+      github: "https://github.com/sumali-junuthula/alpha-hub",
+      demo: "https://alpha-hub-100p.onrender.com/",
+      views: 101,
       category: "Creative Coding"
-    },
-    {
-      id: 2,
-      title: "Real-time Chat App",
-      type: "code",
-      description: "Socket.io powered chat application with real-time messaging, typing indicators, and room management.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=300&fit=crop",
-      skills: ["Socket.io", "Node.js", "React", "MongoDB"],
-      github: "https://github.com/example/chat-app",
-      demo: "https://chat-app.demo.com",
-      views: 2156,
-      category: "Web App"
-    },
-    {
-      id: 3,
-      title: "Cyberpunk Dashboard",
-      type: "code",
-      description: "Futuristic data dashboard with real-time animations and neon aesthetics inspired by cyberpunk design.",
-      image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=400&h=300&fit=crop",
-      skills: ["React", "D3.js", "CSS Animations", "TypeScript"],
-      github: "https://github.com/example/cyber-dash",
-      demo: "https://cyber-dash.demo.com",
-      views: 890,
-      category: "Web App"
-    },
-    {
-      id: 4,
-      title: "E-commerce Platform",
-      type: "code",
-      description: "Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop",
-      skills: ["React", "Stripe", "PostgreSQL", "Express"],
-      github: "https://github.com/example/ecommerce",
-      demo: "https://ecommerce.demo.com",
-      views: 1578,
-      category: "Full-Stack"
-    },
-    {
-      id: 5,
-      title: "AI Code Assistant",
-      type: "code",
-      description: "VS Code extension that provides intelligent code suggestions and refactoring using machine learning.",
-      image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=300&fit=crop",
-      skills: ["Python", "ML", "VS Code API", "Node.js"],
-      github: "https://github.com/example/ai-assistant",
-      demo: "https://marketplace.visualstudio.com/items?itemName=example.ai-assistant",
-      views: 3241,
-      category: "Developer Tool"
-    },
-    {
-      id: 6,
-      title: "Mobile Banking App",
-      type: "code",
-      description: "React Native banking application with biometric authentication and real-time transaction tracking.",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=300&fit=crop",
-      skills: ["React Native", "Node.js", "JWT", "MongoDB"],
-      github: "https://github.com/example/banking-app",
-      demo: "https://banking-app.demo.com",
-      views: 1923,
-      category: "Mobile App"
     }
+    // {
+    //   id: 1,
+    //   title: "Neural Network Visualizer",
+    //   type: "code",
+    //   description: "Interactive 3D visualization of neural network training process using Three.js and WebGL shaders.",
+    //   image: "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=400&h=300&fit=crop",
+    //   skills: ["Three.js", "WebGL", "React", "TypeScript"],
+    //   github: "https://github.com/example/neural-viz",
+    //   demo: "https://neural-viz.demo.com",
+    //   views: 1247,
+    //   category: "Creative Coding"
+    // },
+    // {
+    //   id: 2,
+    //   title: "Real-time Chat App",
+    //   type: "code",
+    //   description: "Socket.io powered chat application with real-time messaging, typing indicators, and room management.",
+    //   image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=300&fit=crop",
+    //   skills: ["Socket.io", "Node.js", "React", "MongoDB"],
+    //   github: "https://github.com/example/chat-app",
+    //   demo: "https://chat-app.demo.com",
+    //   views: 2156,
+    //   category: "Web App"
+    // },
+    // {
+    //   id: 3,
+    //   title: "Cyberpunk Dashboard",
+    //   type: "code",
+    //   description: "Futuristic data dashboard with real-time animations and neon aesthetics inspired by cyberpunk design.",
+    //   image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=400&h=300&fit=crop",
+    //   skills: ["React", "D3.js", "CSS Animations", "TypeScript"],
+    //   github: "https://github.com/example/cyber-dash",
+    //   demo: "https://cyber-dash.demo.com",
+    //   views: 890,
+    //   category: "Web App"
+    // },
+    // {
+    //   id: 4,
+    //   title: "E-commerce Platform",
+    //   type: "code",
+    //   description: "Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
+    //   image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop",
+    //   skills: ["React", "Stripe", "PostgreSQL", "Express"],
+    //   github: "https://github.com/example/ecommerce",
+    //   demo: "https://ecommerce.demo.com",
+    //   views: 1578,
+    //   category: "Full-Stack"
+    // },
+    // {
+    //   id: 5,
+    //   title: "AI Code Assistant",
+    //   type: "code",
+    //   description: "VS Code extension that provides intelligent code suggestions and refactoring using machine learning.",
+    //   image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=300&fit=crop",
+    //   skills: ["Python", "ML", "VS Code API", "Node.js"],
+    //   github: "https://github.com/example/ai-assistant",
+    //   demo: "https://marketplace.visualstudio.com/items?itemName=example.ai-assistant",
+    //   views: 3241,
+    //   category: "Developer Tool"
+    // },
+    // {
+    //   id: 6,
+    //   title: "Mobile Banking App",
+    //   type: "code",
+    //   description: "React Native banking application with biometric authentication and real-time transaction tracking.",
+    //   image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=300&fit=crop",
+    //   skills: ["React Native", "Node.js", "JWT", "MongoDB"],
+    //   github: "https://github.com/example/banking-app",
+    //   demo: "https://banking-app.demo.com",
+    //   views: 1923,
+    //   category: "Mobile App"
+    // }
   ];
 
   const filteredProjects = projects.filter(project => 
