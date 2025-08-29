@@ -32,7 +32,7 @@ const Hero = () => {
 
         {/* Subtitle */}
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          I'm a <span className="text-secondary">creative</span> <span className="text-primary font-mono">{`{developer}`}</span>
+          I'm a <span className="text-accent">creative</span> <span className="text-primary font-mono">{`{developer}`}</span>
         </p>
 
         {/* CTA Buttons */}
