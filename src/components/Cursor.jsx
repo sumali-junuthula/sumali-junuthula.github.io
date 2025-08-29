@@ -5,8 +5,8 @@ export default function Cursor() {
   const coords = useRef({ x: 0, y: 0 });
   const circlesRef = useRef([]);
   const numCircles = 12;
-  const width = 20;
-  const height = 20;
+  const width = 18;
+  const height = 18;
 
   useEffect(() => {
     const storedCoords = localStorage.getItem('cursor-position');
@@ -67,7 +67,7 @@ export default function Cursor() {
           key={i}
           ref={(e) => (circlesRef.current[i] = e)}
           style={{ width: `${width}px`, height: `${height}px` }}
-          className={`absolute bg-beige rounded-full`}
+          className={`absolute bg-muted-foreground rounded-full`}
         ></div>
       ))}
     </div>

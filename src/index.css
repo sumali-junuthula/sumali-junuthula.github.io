@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.html, body {
+  cursor: none;
+}
+
 /* Cyber-Artistic Design System - Artsy meets Techy */
 
 @layer base {
