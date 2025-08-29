@@ -21,7 +21,19 @@ const Projects = () => {
       demo: "https://alpha-hub-100p.onrender.com/",
       views: 101,
       category: "Creative Coding"
-    }
+    },
+    {
+      id: 2,
+      title: "My Portfolio",
+      type: "code",
+      description: "A wesbite that showcases my experiences, skills, and projects.",
+      image: "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=400&h=300&fit=crop",
+      skills: ["Vite", "React", "HTML", "TypeScript", "JavaScript", "TailwindCSS"],
+      github: "https://github.com/sumali-junuthula/sumali-junuthula.github.io",
+      demo: "https://sumali-junuthula.github.io/",
+      views: 215,
+      category: "Creative Coding"
+    },
   ];
 
   const filteredProjects = projects.filter(project => 
