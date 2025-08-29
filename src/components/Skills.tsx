@@ -6,25 +6,25 @@ const Skills = () => {
     {
       icon: Code2,
       title: "Development",
-      skills: ["React", "TypeScript", "Node.js", "Python", "Three.js", "WebGL"],
+      skills: ["React", "TypeScript", "Node.js", "Python", "C", "SML", "JavaScript", "TailwindCSS", "Vite", "HTML", "CSS"],
       color: "primary"
     },
     {
       icon: Palette,
       title: "Design",
-      skills: ["UI/UX", "Digital Art", "3D Modeling", "Motion Graphics", "Branding"],
+      skills: ["UI/UX", "Digital Art", "3D Modeling", "Pastel"],
       color: "secondary"
     },
     {
       icon: Zap,
-      title: "Creative Coding",
-      skills: ["Generative Art", "Interactive Media", "Data Visualization", "Shaders"],
+      title: "Classes",
+      skills: ["Intro to Machine Learning", "Concepts of Math", "Intro to Computer Systems", "Parallel and Sequential Data Structures and Algorithms", "Functional Programming", "Principles of Imperative Computation", "Intro to Accounting", "Finance", "Optimization for Business"],
       color: "accent"
     },
     {
       icon: Cpu,
       title: "Tech Stack",
-      skills: ["Docker", "AWS", "Git", "Blender", "Adobe Suite", "Figma"],
+      skills: ["Docker", "AWS", "Git", "Figma"],
       color: "muted"
     }
   ];
