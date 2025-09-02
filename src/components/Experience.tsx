@@ -8,41 +8,27 @@ const Experience = () => {
     {
       id: 1,
       type: "experience",
-      company: "Microsoft Learn Student Ambassadors SRM",
-      role: "Student Ambassador",
-      duration: "January 2024 - Present",
-      logo: "MS",
+      company: "DMX Consulting",
+      role: "Intern",
+      duration: "Jan 2022 - Apr 2022",
+      logo: "DMX",
       logoColor: "bg-blue-600",
       achievements: [
-        "Led technical workshops for 200+ students on cloud computing and web development",
-        "Organized hackathons and coding bootcamps with 90% completion rates",
-        "Mentored junior developers in React.js and Azure cloud services",
-        "Collaborated with university faculty to integrate modern tech curriculum"
+        "Processed and analyzed business datasets from 25+ companies, applying regression analysis and basic forecasting models to evaluate growth potential and revenue trends",
+        "Built visual dashboards (Excel/Python) to track KPIs, enabling consultants to identify inefficiencies with 30% faster turnaround in decision-making",
+        "Applied clustering techniques to segment 50+ potential client businesses by size, industry, and financial health, improving outreach prioritization accuracy by 40%",
+        "Contributed to data-driven consulting strategies by translating raw business metrics into KPIs, benchmarking against industry standards, and highlighting areas for optimization",
+        "Learned and applied start-up consulting practices with a technical focus on data analysis, process automation, and visualization to support scalable recommendations"
       ]
     },
     {
       id: 2,
-      type: "experience",
-      company: "Apollo Tyres R&D",
-      role: "Project Trainee",
-      duration: "February 2024 - May 2024",
-      logo: "A",
-      logoColor: "bg-emerald-500",
-      achievements: [
-        "Architected a robust backend using Django and PostgreSQL to handle over 200 concurrent simulations, resulting in a 40% improvement in system performance and data retrieval efficiency.",
-        "Designed an interactive Chart.js dashboard for managers to track job assignments, completion rates, and real-time engineer performance across 300+ projects.",
-        "Streamlined task management for a system handling over 1,000 tasks daily.",
-        "Developed a web application that optimized the simulation workflow for Apollo Tyres, enhancing task allocation efficiency by approximately 30%."
-      ]
-    },
-    {
-      id: 3,
       type: "award",
-      title: "Best Innovation Project",
-      organization: "Tech Excellence Awards 2024",
-      duration: "March 2024",
+      title: "2nd Place",
+      organization: "AMA Academy Final Presentation",
+      duration: "Nov 2023",
       logo: "🏆",
-      logoColor: "bg-gradient-to-r from-yellow-400 to-orange-500",
+      logoColor: "bg-emerald-500",
       achievements: [
         "Recognized for developing an innovative AI-powered code analysis tool",
         "Selected from over 500 submissions across 20+ universities",
@@ -51,78 +37,18 @@ const Experience = () => {
       ]
     },
     {
-      id: 4,
+      id: 3,
       type: "experience",
-      company: "Social Winter of Code",
-      role: "Open Source Contributor", 
-      duration: "December 2023 - February 2024",
-      logo: "SW",
-      logoColor: "bg-purple-600",
+      company: "American Marketing Association",
+      role: "Member of For-Profit Committee",
+      duration: "January 2024 - May 2024",
+      logo: "A",
+      logoColor: "bg-gradient-to-r from-yellow-400 to-orange-500",
       achievements: [
-        "Contributed to 5+ open source projects focused on social impact and community development",
-        "Implemented responsive UI components using React and Tailwind CSS",
-        "Fixed critical bugs and improved code quality across multiple repositories",
-        "Collaborated with international developers through GitHub and Discord"
-      ]
-    },
-    {
-      id: 5,
-      type: "award",
-      title: "Outstanding Student Developer",
-      organization: "Developer Community Awards",
-      duration: "January 2024",
-      logo: "⭐",
-      logoColor: "bg-gradient-to-r from-purple-500 to-pink-500",
-      achievements: [
-        "Awarded for exceptional contributions to open source community",
-        "Recognized leadership in organizing coding workshops",
-        "Honored for mentoring junior developers",
-        "Certificate of excellence in software development practices"
-      ]
-    },
-    {
-      id: 6,
-      type: "experience",
-      company: "EduSkills Foundation",
-      role: "Technical Intern",
-      duration: "June 2023 - August 2023", 
-      logo: "ES",
-      logoColor: "bg-orange-500",
-      achievements: [
-        "Developed educational web applications for K-12 students using MERN stack",
-        "Created interactive learning modules with gamification features",
-        "Optimized database queries resulting in 50% faster page load times",
-        "Conducted user testing sessions with 100+ students to improve UX"
-      ]
-    },
-    {
-      id: 7,
-      type: "experience",
-      company: "MathWorks",
-      role: "Student Developer",
-      duration: "September 2023 - November 2023",
-      logo: "MW", 
-      logoColor: "bg-red-600",
-      achievements: [
-        "Built MATLAB simulation tools for engineering analysis and data visualization",
-        "Developed custom algorithms for signal processing and machine learning applications",
-        "Created documentation and tutorials for student community of 500+ members",
-        "Presented technical solutions at virtual conferences and workshops"
-      ]
-    },
-    {
-      id: 8,
-      type: "award",
-      title: "Hackathon Winner",
-      organization: "CodeFest 2023",
-      duration: "October 2023",
-      logo: "🥇",
-      logoColor: "bg-gradient-to-r from-green-400 to-blue-500",
-      achievements: [
-        "First place in 48-hour hackathon with 200+ participants",
-        "Built a sustainable transportation app using React Native",
-        "Implemented real-time route optimization algorithms",
-        "Won $5000 prize and internship opportunity"
+        "Architected a robust backend using Django and PostgreSQL to handle over 200 concurrent simulations, resulting in a 40% improvement in system performance and data retrieval efficiency.",
+        "Designed an interactive Chart.js dashboard for managers to track job assignments, completion rates, and real-time engineer performance across 300+ projects.",
+        "Streamlined task management for a system handling over 1,000 tasks daily.",
+        "Developed a web application that optimized the simulation workflow for Apollo Tyres, enhancing task allocation efficiency by approximately 30%."
       ]
     }
   ];
