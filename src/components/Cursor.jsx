@@ -61,7 +61,7 @@ export default function Cursor() {
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 w-screen h-screen pointer-events-none mix-blend-difference z-[9999]">
+    <div className="fixed top-0 left-0 w-screen h-screen pointer-events-none mix-blend-differencs z-[999999]">
       {[...Array(numCircles)].map((_, i) => (
         <div
           key={i}

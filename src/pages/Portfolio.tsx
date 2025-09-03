@@ -1,3 +1,4 @@
+import Cursor from "@/components/Cursor";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
@@ -7,6 +8,7 @@ import Experience from "@/components/Experience";
 const Portfolio = () => {
   return (
     <div className="min-h-screen bg-background">
+      <Cursor />
       <Header />
       <div className="pt-20"> {/* Add padding to account for fixed header */}
         <section id="hero">
@@ -82,7 +84,7 @@ const Portfolio = () => {
             </a>
           </div>
           <p className="text-sm text-muted-foreground font-mono">
-            © 2024 Creative Developer. Crafted with <span className="text-accent">♥</span> and code.
+            © 2025 Creative Developer. Crafted with <span className="text-accent">♥</span> and code.
           </p>
         </div>
       </footer>
