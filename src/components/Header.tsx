@@ -58,9 +58,9 @@ const Header = () => {
     resume: "experience",
     cv: "experience",
     portfolio: "projects",
-    github: () => window.open("https://github.com/example", "_blank"),
-    linkedin: () => window.open("https://linkedin.com/in/example", "_blank"),
-    email: () => window.open("mailto:hello@example.com", "_blank")
+    github: () => window.open("https://github.com/sumali-junuthula", "_blank"),
+    linkedin: () => window.open("https://www.linkedin.com/in/sumali-junuthula/", "_blank"),
+    email: () => window.open("mailto:sumali.junuthula@gmail.com", "_blank")
   };
 
   const handleSearch = (e: React.KeyboardEvent) => {
@@ -135,7 +135,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Left side - Name and Social Icons */}
         <div className="flex items-center gap-6">
-          <h1 className="text-xl font-bold text-foreground font-mono">
+          <h1 className="text-xl font-bold text-muted-foreground font-mono">
             Sumali Junuthula
           </h1>
           
@@ -186,7 +186,7 @@ const Header = () => {
             
             {/* Terminal Content */}
             <div className="space-y-2">
-              <div className="text-secondary/80 text-xs">
+              <div className="text-accent/80 text-xs">
                 # Try: hire | resume | github | linkedin | skills
               </div>
               <div className="flex items-center">
