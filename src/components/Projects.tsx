@@ -20,10 +20,34 @@ const Projects = () => {
       github: "https://github.com/sumali-junuthula/alpha-hub",
       demo: "https://alpha-hub-100p.onrender.com/",
       views: 101,
-      category: "Creative Coding"
+      category: "FinTech"
     },
     {
-      id: 2,
+      id: 3,
+      title: "DealLab",
+      type: "code",
+      description: "AI-Powered M&A Screener & Strategy Assistant",
+      image: "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=400&h=300&fit=crop",
+      skills: ["Vite", "React", "HTML", "TypeScript", "JavaScript", "TailwindCSS"],
+      github: "https://github.com/sumali-junuthula/deal-lab",
+      demo: "",
+      views: 215,
+      category: "FinTech"
+    },
+    {
+      id: 4,
+      title: "KnowYourRights",
+      type: "code",
+      description: "AI-Powered M&A Screener & Strategy Assistant",
+      image: "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=400&h=300&fit=crop",
+      skills: ["react Navigation", "React Native (Expo)", "Firebase", "Node.js", "HTML", "TypeScript", "JavaScript", "TailwindCSS"],
+      github: "https://github.com/sumali-junuthula/know-your-rights",
+      demo: "",
+      views: 215,
+      category: "FinTech"
+    },
+    {
+      id: 5,
       title: "My Portfolio",
       type: "code",
       description: "A wesbite that showcases my experiences, skills, and projects.",

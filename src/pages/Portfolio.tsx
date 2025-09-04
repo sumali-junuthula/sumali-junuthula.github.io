@@ -44,6 +44,8 @@ const Portfolio = () => {
             <div>
               <p className="font-mono mb-2">Quick Tips:</p>
               <ul className="space-y-1">
+                <li>• Click on blue circle to get full terminal experience</li>
+                <li>• Click on red circle to exit from terminal</li>
                 <li>• Type command in terminal and press Enter</li>
                 <li>• Click social icons in header for contact</li>
                 <li>• Scroll naturally or use search navigation</li>
@@ -61,13 +63,13 @@ const Portfolio = () => {
           </p>
           <div className="flex justify-center gap-6 mb-6">
             <a 
-              href="mailto:hello@example.com" 
+              href="mailto:sumali.junuthula@gmail.com" 
               className="text-primary hover:text-secondary transition-colors font-mono"
             >
-              hello@example.com
+              sumali.junuthula@gmail.com
             </a>
             <a 
-              href="https://github.com/example" 
+              href="https://github.com/sumali-junuthula" 
               className="text-primary hover:text-secondary transition-colors"
               target="_blank" 
               rel="noopener noreferrer"
@@ -75,7 +77,7 @@ const Portfolio = () => {
               GitHub
             </a>
             <a 
-              href="https://linkedin.com/in/example" 
+              href="https://www.linkedin.com/in/sumali-junuthula/" 
               className="text-primary hover:text-secondary transition-colors"
               target="_blank" 
               rel="noopener noreferrer"

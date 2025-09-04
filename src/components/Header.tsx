@@ -37,12 +37,10 @@ const Header = () => {
   };
 
   const projectsData = [
-    "Neural Network Visualizer",
-    "Real-time Chat App", 
-    "Cyberpunk Dashboard",
-    "E-commerce Platform",
-    "AI Code Assistant",
-    "Mobile Banking App"
+    "AlphaHub",
+    "DealLab", 
+    "KnowYourRights",
+    "My Website"
   ];
 
   const sections = {

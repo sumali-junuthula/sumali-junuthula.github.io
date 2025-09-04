@@ -6,25 +6,25 @@ const Skills = () => {
     {
       icon: Code2,
       title: "Development",
-      skills: ["React", "TypeScript", "Node.js", "Python", "C", "SML", "JavaScript", "TailwindCSS", "Vite", "HTML", "CSS"],
+      skills: ["React", "TypeScript", "Node.js", "Python", "C", "Standard ML", "JavaScript", "TailwindCSS", "HTML", "CSS"],
       color: "primary"
     },
     {
       icon: Palette,
       title: "Design",
-      skills: ["UI/UX", "Digital Art", "3D Modeling", "Pastel"],
+      skills: ["UI/UX", "Digital Art", "3D Modeling", "Pastel", "Photoshop", "Digital Marketing", "Web Design"],
       color: "secondary"
     },
     {
       icon: Zap,
       title: "Classes",
-      skills: ["Intro to Machine Learning", "Concepts of Math", "Intro to Computer Systems", "Parallel and Sequential Data Structures and Algorithms", "Functional Programming", "Principles of Imperative Computation", "Intro to Accounting", "Finance", "Optimization for Business"],
+      skills: ["Machine Learning", "Computer Systems", "Parallel and Sequential DSA", "Functional Programming", "Imperative Computation", "Accounting", "Finance", "Optimization for Business"],
       color: "accent"
     },
     {
       icon: Cpu,
       title: "Tech Stack",
-      skills: ["Docker", "AWS", "Git", "Figma"],
+      skills: ["Docker", "AWS", "Git", "Figma", "MongoDB", "Linux", "Angular", "APIs", "React Native", "Flutter"],
       color: "muted"
     }
   ];
@@ -83,7 +83,7 @@ const Skills = () => {
         {/* Stats Section */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           <div className="space-y-2">
-            <div className="text-3xl font-bold text-primary font-mono">50+</div>
+            <div className="text-3xl font-bold text-primary font-mono">10+</div>
             <div className="text-muted-foreground">Projects Completed</div>
           </div>
           <div className="space-y-2">
