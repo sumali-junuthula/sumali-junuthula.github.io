@@ -186,7 +186,7 @@ const Header = () => {
             
             {/* Terminal Content */}
             <div className="space-y-2">
-              <div className="text-accent/80 text-xs">
+              <div className="text-secondary/80 text-xs">
                 # Try: hire | resume | github | linkedin | skills
               </div>
               <div className="flex items-center">
