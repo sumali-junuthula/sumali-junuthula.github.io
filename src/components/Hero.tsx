@@ -31,8 +31,12 @@ const Hero = () => {
         </h1>
 
         {/* Subtitle */}
-        <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          I'm a <span className="text-accent">creative</span> <span className="text-primary font-mono">{`{developer}`}</span>
+        <p className="text-xl md:text-1xl text-muted-foreground/70 mb-8 max-w-2xl mx-auto">
+          I'm a <span className="text-2xl text-muted-foreground">creative</span> <span className="text-2xl text-muted-foreground font-mono">{`{developer}`}</span>
+          {" "} with experience in {" "} <br />
+          <span className="text-2xl text-muted-foreground font-mono">machine learning</span>, {" "}
+          <span className="text-2xl text-muted-foreground font-mono">quantitative research</span>, and {" "}
+          <span className="text-2xl text-muted-foreground font-mono">software engineering</span>.
         </p>
 
         {/* CTA Buttons */}
