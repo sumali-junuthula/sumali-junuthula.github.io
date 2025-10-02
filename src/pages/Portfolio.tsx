@@ -4,6 +4,7 @@ import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
+import Artworks from "@/components/Artworks";
 
 const Portfolio = () => {
   return (
@@ -22,6 +23,9 @@ const Portfolio = () => {
         </section>
         <section id="experience">
           <Experience />
+        </section>
+        <section id="artworks">
+          <Artworks />
         </section>
       </div>
       
