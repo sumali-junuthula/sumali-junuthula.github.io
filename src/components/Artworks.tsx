@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Card } from '@/components/ui/card';
 import { Terminal, Loader2 } from 'lucide-react';
+import Cursor from "@/components/Cursor";
 
 interface Artwork {
   id: string;
@@ -160,6 +161,7 @@ const TerminalArtworks = () => {
 
   return (
     <section className="relative py-20 px-6 bg-background border-t-2 border-primary/20">
+      <Cursor />
       <div className="max-w-7xl mx-auto">
         {/* Terminal Header */}
         <motion.div
